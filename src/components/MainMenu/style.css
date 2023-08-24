@@ -1,0 +1,174 @@
+.main-menu {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 0px 0px;
+  position: relative;
+}
+
+.main-menu .main-menu-menu-alert {
+  align-items: flex-start;
+  background-color: var(--yellow-03);
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-menu .div-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  justify-content: center;
+  padding: 6px 16px;
+  position: relative;
+}
+
+.main-menu .div {
+  color: #000000;
+  flex: 1;
+  font-family: var(--text-regular-semi-bold-font-family);
+  font-size: var(--text-regular-semi-bold-font-size);
+  font-style: var(--text-regular-semi-bold-font-style);
+  font-weight: var(--text-regular-semi-bold-font-weight);
+  letter-spacing: var(--text-regular-semi-bold-letter-spacing);
+  line-height: var(--text-regular-semi-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.main-menu .img {
+  align-self: stretch;
+  position: relative;
+  width: 34px;
+}
+
+.main-menu .frame-2 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+}
+
+.main-menu .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 49px;
+  position: relative;
+}
+
+.main-menu .group {
+  height: 35.61px;
+  position: relative;
+  width: 92.43px;
+}
+
+.main-menu .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 28px;
+  position: relative;
+}
+
+.main-menu .frame-5 {
+  align-items: baseline;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.main-menu .text-wrapper-2 {
+  color: #100c08;
+  font-family: "Author-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.main-menu .vector-2 {
+  height: 7.67px;
+  position: relative;
+  width: 13.31px;
+}
+
+.main-menu .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.main-menu .link-instance {
+  flex: 0 0 auto !important;
+}
+
+.main-menu .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.main-menu .frame-8 {
+  height: 30px;
+  position: relative;
+  width: 30px;
+}
+
+.main-menu .frame-9 {
+  flex: 0 0 auto;
+  margin-bottom: -8px;
+  margin-right: -6px;
+  margin-top: -4px;
+  position: relative;
+}
+
+.main-menu.desktop {
+  width: 1280px;
+}
+
+.main-menu.mobile {
+  gap: 10px;
+  width: 412px;
+}
+
+.main-menu.desktop .main-menu-menu-alert {
+  width: 1280px;
+}
+
+.main-menu.mobile .main-menu-menu-alert {
+  align-self: stretch;
+  width: 100%;
+}
+
+.main-menu.desktop .frame-2 {
+  padding: 16px 0px;
+  width: 1048px;
+}
+
+.main-menu.mobile .frame-2 {
+  align-self: stretch;
+  padding: 16px 24px;
+  width: 100%;
+}

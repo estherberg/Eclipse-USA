@@ -1,0 +1,209 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.button .text-wrapper-3 {
+  font-family: "Author-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .icon-chevron-right {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.button .text-wrapper-4 {
+  font-family: "Author-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.style-link {
+  gap: 8px;
+}
+
+.button.style-primary {
+  border: 1.5px solid;
+  border-color: #100c08;
+}
+
+.button.style-secondary {
+  border: 1px solid;
+}
+
+.button.style-primary.blue-true {
+  background-color: var(--blue);
+}
+
+.button.style-secondary.no-icon {
+  gap: 8px;
+}
+
+.button.style-primary.blue-false {
+  background-color: var(--yellow);
+}
+
+.button.style-secondary.small-false {
+  padding: 12px 24px;
+}
+
+.button.style-secondary.small-true {
+  padding: 8px 20px;
+}
+
+.button.style-secondary.blue-false {
+  border-color: var(--blue);
+}
+
+.button.style-secondary.blue-true {
+  border-color: var(--yellow);
+}
+
+.button.style-secondary.leading {
+  gap: 12px;
+}
+
+.button.style-primary.leading {
+  gap: 12.65px;
+  padding: 4px 12px;
+}
+
+.button.style-secondary.trailing {
+  gap: 12px;
+}
+
+.button.style-primary.no-icon.blue-false {
+  gap: 12.65px;
+}
+
+.button.small-false.no-icon.blue-true {
+  gap: 8px;
+}
+
+.button.style-primary.blue-false.small-true {
+  gap: 12.65px;
+}
+
+.button.style-primary.no-icon.small-true {
+  gap: 12.65px;
+  padding: 2px 10px;
+}
+
+.button.style-primary.small-false.no-icon {
+  padding: 4px 12px;
+}
+
+.button.style-primary.small-true.trailing {
+  padding: 4px 12px;
+}
+
+.button.style-primary.small-false.trailing {
+  gap: 4px;
+  padding: 4px 4px 4px 12px;
+}
+
+.button.style-primary.small-true.trailing.blue-true {
+  gap: 10px;
+}
+
+.button.style-link .text-wrapper-3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button.style-primary .text-wrapper-3 {
+  color: #100c08;
+}
+
+.button.style-secondary .text-wrapper-3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button.no-icon.small-true .text-wrapper-3 {
+  font-size: 16px;
+}
+
+.button.blue-true.style-link .text-wrapper-3 {
+  color: var(--yellow);
+}
+
+.button.style-primary.small-false .text-wrapper-3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.button.style-primary.trailing .text-wrapper-3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.button.style-secondary.blue-false .text-wrapper-3 {
+  color: var(--blue);
+}
+
+.button.blue-false.style-link .text-wrapper-3 {
+  color: var(--blue);
+}
+
+.button.style-secondary.blue-true .text-wrapper-3 {
+  color: var(--yellow);
+}
+
+.button.small-true.leading .text-wrapper-3 {
+  font-size: 16px;
+}
+
+.button.style-primary.leading .text-wrapper-3 {
+  line-height: 28px;
+}
+
+.button.style-primary.no-icon.small-true .text-wrapper-3 {
+  line-height: 22.4px;
+}
+
+.button.style-link .text-wrapper-4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button.style-primary .text-wrapper-4 {
+  color: #100c08;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.button.style-secondary .text-wrapper-4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button.style-secondary.blue-true .text-wrapper-4 {
+  color: var(--yellow);
+}
+
+.button.style-secondary.blue-false .text-wrapper-4 {
+  color: var(--blue);
+}
+
+.button.blue-false.style-link .text-wrapper-4 {
+  color: var(--blue);
+}
+
+.button.blue-true.style-link .text-wrapper-4 {
+  color: var(--yellow);
+}

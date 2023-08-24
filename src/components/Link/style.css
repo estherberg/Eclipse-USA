@@ -1,0 +1,38 @@
+.link {
+  align-items: baseline;
+  display: inline-flex;
+  gap: 8px;
+  padding: 0px 24px 0px 0px;
+  position: relative;
+}
+
+.link .new-arrivals {
+  color: #100c08;
+  font-family: "Author-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link .vector {
+  position: absolute;
+}
+
+.link .in {
+  height: 12px;
+  left: 92px;
+  top: 6px;
+  width: 16px;
+}
+
+.link .out {
+  height: 11px;
+  left: 3440px;
+  top: -1298px;
+  width: 15px;
+}
